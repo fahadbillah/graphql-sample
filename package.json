@@ -1,0 +1,25 @@
+{
+  "name": "simple-gql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-watch src/index.js"
+  },
+  "dependencies": {
+    "apollo-server-core": "^3.1.2",
+    "apollo-server-express": "^3.1.2",
+    "cookie-parser": "^1.4.5",
+    "dataloader": "^2.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "mongodb": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.14.9",
+    "babel-watch": "^7.5.0"
+  }
+}

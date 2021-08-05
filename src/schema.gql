@@ -1,0 +1,48 @@
+
+type Customer{
+  username: String
+  name: String
+  email: String
+  # accounts: [Int]
+  accounts: [Account]
+  # accountsDetails: [Account]
+}
+
+type Account{
+  account_id: Int
+  limit: Int
+  products: [String]
+}
+
+type Query {
+  getCustomers: [Customer]
+}
+
+
+
+
+
+
+
+
+
+# type Comments{
+#   body: String!
+#   email: String!
+#   author: String!
+# }
+
+# type Post{
+#   id: ID!
+#   body: String!
+#   permalink: String!
+#   author: String!
+#   title: String!
+#   tags: [String]
+#   comments: [Comments]
+#   date: String
+# }
+
+# type Query {
+#   getPosts: [Post]
+# }
